@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;800&display=swap" rel="stylesheet">
+
+<style>
+body{font-family:Roboto, sans-serif;}
+</style>
+
+<title>Mabi Tailwind</title>
+</head>
+
+<body class="bg-slate-100 overflow-x-hidden">
+
+<!-- Background Wrapper -->
+<div class="bg-no-repeat text-white"
+style="background-image:url('photos/Shape.png');">
+
+<!-- Navbar -->
+<header class="flex justify-between items-center px-6 lg:px-20 py-6 max-w-[1440px] mx-auto">
+
+<div class="flex items-center gap-12">
+
+<h1 class="text-3xl lg:text-5xl font-extrabold">mabi</h1>
+
+<nav class="hidden md:flex gap-12 text-lg font-medium">
+<a class="underline underline-offset-8">Home</a>
+<a>Solutions</a>
+<a>Pricing</a>
+<a>Resources ˅</a>
+</nav>
+
+</div>
+
+<div class="hidden md:flex gap-3">
+<button class="border-2 border-white rounded-full px-7 py-3">
+Log In
+</button>
+
+<button class="bg-white text-slate-900 rounded-full px-7 py-3 font-medium">
+Free Launch
+</button>
+</div>
+
+<!-- Mobile Menu -->
+<div class="md:hidden">
+<img src="photos/menu-outline.png" class="w-8">
+</div>
+
+</header>
+
+<!-- Hero Section -->
+<section class="flex flex-col md:flex-row items-center gap-10 lg:gap-20 px-6 lg:px-20 max-w-[1440px] mx-auto">
+
+<!-- Content -->
+<div class="flex flex-col gap-8 text-center md:text-left md:items-start items-center justify-center min-h-[600px]">
+
+<div>
+<h1 class="text-4xl sm:text-5xl lg:text-7xl font-extrabold leading-tight">
+Launch Your App
+</h1>
+
+<h2 class="text-3xl sm:text-4xl lg:text-6xl font-extrabold text-slate-300">
+Grow Your Business
+</h2>
+</div>
+
+<p class="text-lg sm:text-xl lg:text-2xl max-w-xl">
+Amet nunc diam orci duis ut sit diam arcu, nec. Eleifend proin massa tincidunt viverra lectus pulvinar.
+</p>
+
+<button class="border-2 border-white rounded-full px-12 py-5 text-xl font-bold">
+Free Launch
+</button>
+
+</div>
+
+<!-- Image -->
+<div>
+<img src="photos/Frame50.png" class="w-[350px] lg:w-auto pt-10 pb-20">
+</div>
+
+</section>
+
+<!-- Partners -->
+<section class="bg-slate-100 px-6 lg:px-20 py-16 text-center">
+
+<h2 class="text-3xl lg:text-5xl font-extrabold text-slate-900 mb-16">
+Our Top Partners
+</h2>
+
+<!-- Row 1 -->
+<div class="flex flex-wrap justify-center items-center gap-10 lg:gap-20 mb-12">
+<img src="photos/astrom.png" class="w-24 lg:w-auto">
+<img src="photos/cicio.png" class="w-24 lg:w-auto">
+<img src="photos/weavy.png" class="w-24 lg:w-auto">
+<img src="photos/vrokets.png" class="w-24 lg:w-auto">
+<img src="photos/viewio.png" class="w-24 lg:w-auto">
+</div>
+
+<!-- Row 2 -->
+<div class="flex flex-wrap justify-center items-center gap-10 lg:gap-20">
+<img src="photos/metablu.png" class="w-24 lg:w-auto">
+<img src="photos/buildaa.png" class="w-24 lg:w-auto">
+<img src="photos/hapi.png" class="w-24 lg:w-auto">
+<img src="photos/logoipsum.png" class="w-24 lg:w-auto">
+<img src="photos/virtuo.png" class="w-24 lg:w-auto">
+</div>
+
+</section>
+
+
+<!-- How It Works -->
+<section class="bg-white px-6 lg:px-20 py-16 text-center">
+
+<h2 class="text-3xl lg:text-5xl font-extrabold text-slate-800">
+How it works
+</h2>
+
+<div class="flex flex-col lg:flex-row justify-center items-center gap-10 lg:gap-20 mt-16">
+
+<!-- Card 1 -->
+<div class="w-[300px] p-8 border-2 border-slate-400 rounded-xl shadow-lg bg-white">
+<img src="photos/clock.png" class="mx-auto mb-6">
+<p class="text-slate-900 text-lg leading-relaxed">
+Dui consectetur gravida platea ut dis diam. Enim morbi proin auctor et nisl phasellus.
+</p>
+</div>
+
+<!-- Card 2 -->
+<div class="w-[300px] p-8 border-2 border-slate-500 rounded-xl bg-white">
+<img src="photos/ds.png" class="mx-auto mb-6">
+<p class="text-slate-900 text-lg leading-relaxed">
+Et sit duis vestibulum proin. Sollicitudin velit etiam a feugiat sagittis.
+</p>
+</div>
+
+<!-- Card 3 -->
+<div class="w-[300px] p-8 border-2 border-slate-600 rounded-xl shadow-lg bg-white">
+<img src="photos/star.png" class="mx-auto mb-6">
+<p class="text-slate-900 text-lg leading-relaxed">
+Elit purus magna donec mattis amet leo varius sed ut metus convallis pretium.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- Features -->
+<section class="bg-slate-100">
+
+<!-- Block 1 -->
+<div class="flex flex-col lg:flex-row items-center gap-10 lg:gap-20 px-6 lg:px-20 py-20">
+
+<div class="flex-1 text-center lg:text-left">
+<h2 class="text-3xl lg:text-5xl font-extrabold text-slate-800 mb-6">
+Turpis risus facilisi
+</h2>
+
+<p class="text-slate-900 text-lg leading-relaxed">
+Augue feugiat mi massa amet id purus aliquam bibendum purus dictum elementum.
+</p>
+</div>
+
+<div class="flex-1 text-center">
+<img src="photos/Col.png" class="mx-auto">
+</div>
+
+</div>
+
+
+<!-- Block 2 -->
+<div class="flex flex-col lg:flex-row-reverse items-center gap-10 lg:gap-20 px-6 lg:px-20 py-20">
+
+<div class="flex-1 text-center lg:text-left">
+<h2 class="text-3xl lg:text-5xl font-extrabold text-slate-800 mb-6">
+Sagittis sapien viverra
+</h2>
+
+<p class="text-slate-900 text-lg leading-relaxed">
+Id turpis ante nunc id tempor diam eros eget suspendisse dolor tellus.
+</p>
+</div>
+
+<div class="flex-1 text-center">
+<img src="photos/Col (1).png" class="mx-auto">
+</div>
+
+</div>
+
+
+<!-- Block 3 -->
+<div class="flex flex-col lg:flex-row items-center gap-10 lg:gap-20 px-6 lg:px-20 py-20">
+
+<div class="flex-1 text-center lg:text-left">
+<h2 class="text-3xl lg:text-5xl font-extrabold text-slate-800 mb-6">
+Non commodo nec
+</h2>
+
+<p class="text-slate-900 text-lg leading-relaxed">
+Laoreet amet lacus sed faucibus nec natoque semper rutrum dui.
+</p>
+</div>
+
+<div class="flex-1 text-center">
+<img src="photos/Col (2).png" class="mx-auto">
+</div>
+
+</div>
+
+</section>
+
+
+<!-- CTA Desktop -->
+<section class="hidden md:block text-white bg-cover bg-no-repeat px-6 lg:px-20"
+style="background-image:url('photos/Shape2.png');">
+
+<div class="flex items-center gap-20">
+
+<div class="py-32">
+<img src="photos/Desktop.png">
+</div>
+
+<div class="max-w-xl">
+<h2 class="text-3xl lg:text-5xl font-extrabold mb-6">
+Launch Your App Today
+</h2>
+
+<p class="text-lg lg:text-2xl mb-8">
+Amet nunc diam orci duis ut sit diam arcu nec eleifend proin massa tincidunt.
+</p>
+
+<button class="border-2 border-white rounded-full px-12 py-5 text-xl font-bold">
+Free Launch
+</button>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- CTA Mobile -->
+<section class="md:hidden bg-slate-600 text-white text-center px-6 py-16">
+
+<img src="photos/Desktop-mobile.png" class="mx-auto mb-8">
+
+<h2 class="text-2xl font-bold mb-6">
+Launch Your App Today
+</h2>
+
+<p class="text-sm mb-8">
+Amet nunc diam orci duis ut sit diam arcu nec eleifend proin massa tincidunt.
+</p>
+
+<button class="border-2 border-white rounded-full px-10 py-4 font-semibold">
+Free Launch
+</button>
+
+</section>
+
+
+<!-- Footer -->
+<footer class="bg-slate-600 text-slate-200 px-6 lg:px-20 pt-12">
+
+<div class="flex flex-col lg:flex-row justify-between gap-10 pb-12">
+
+<h3 class="text-3xl font-bold text-white">
+mabi
+</h3>
+
+<div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-10 text-sm">
+
+<div>
+<h4 class="text-white mb-4">Product</h4>
+<p class="mb-2">Pricing</p>
+<p class="mb-2">Overview</p>
+<p class="mb-2">Browse</p>
+<p>Accessibility</p>
+</div>
+
+<div>
+<h4 class="text-white mb-4">Solutions</h4>
+<p class="mb-2">Brainstorming</p>
+<p class="mb-2">Ideation</p>
+<p class="mb-2">Wireframing</p>
+<p>Research</p>
+</div>
+
+<div>
+<h4 class="text-white mb-4">Resources</h4>
+<p class="mb-2">Help Center</p>
+<p class="mb-2">Blog</p>
+<p class="mb-2">Tutorials</p>
+<p>FAQs</p>
+</div>
+
+<div>
+<h4 class="text-white mb-4">Support</h4>
+<p class="mb-2">Contact Us</p>
+<p class="mb-2">Developers</p>
+<p class="mb-2">Documentation</p>
+<p>Integrations</p>
+</div>
+
+<div>
+<h4 class="text-white mb-4">Company</h4>
+<p class="mb-2">About</p>
+<p class="mb-2">Press</p>
+<p class="mb-2">Events</p>
+<p>Request Demo →</p>
+</div>
+
+</div>
+
+</div>
+
+<div class="border-t border-slate-500 py-6 flex flex-col lg:flex-row justify-between items-center text-sm gap-4">
+
+<p>© 2023 Mabi. All rights reserved.</p>
+
+<div class="flex gap-6">
+<p>Terms</p>
+<p>Privacy</p>
+<p>Contact</p>
+<p>🌐EN</p>
+<p>€ EUR</p>
+</div>
+
+</div>
+
+</footer>
+
+
+</div>
+
+</body>
+</html>
